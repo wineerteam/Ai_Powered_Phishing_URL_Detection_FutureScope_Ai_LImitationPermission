@@ -12,4 +12,4 @@ USE ai_limitation_permission_is more_Secured_any os like android,windows,linux,i
 cheek all permission and bloked cancle or Deny permission if it is malicious app or website don't give any permission 
 
 Advantage of this app is each and every day update with help of Ai Automatically So MORE SECURED YOUR DIVICES
-
+This Project Is Practical Implications Of Multiple Research Paper Of Summary
