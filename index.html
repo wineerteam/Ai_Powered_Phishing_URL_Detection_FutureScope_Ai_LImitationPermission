@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI-Powered Phishing URL Detection</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="logo">
+          <i class="fas fa-shield-alt"></i>
+          <h1>PhishGuard AI</h1>
+        </div>
+        <p class="subtitle">Advanced AI-powered phishing URL detection</p>
+      </header>
+
+      <main class="main-content">
+        <div class="detection-card">
+          <div class="input-section">
+            <h2>Check URL Safety</h2>
+            <div class="input-group">
+              <input
+                id="urlInput"
+                type="text"
+                placeholder="https://example.com"
+                required
+              />
+              <button id="analyzeBtn" class="analyze-btn">
+                <i class="fas fa-search"></i> Analyze
+              </button>
+            </div>
+          </div>
+
+          <div id="resultSection" class="result-section hidden">
+            <div class="result-header">
+              <h3>Analysis Result</h3>
+            </div>
+
+            <div class="result-details">
+              <div id="statusIndicator" class="status-indicator">
+                <i id="statusIcon" class="fas fa-question-circle"></i>
+                <span id="statusText">No result</span>
+              </div>
+
+              <div class="url-display">
+                <strong>URL:</strong> <span id="analyzedUrl"></span>
+              </div>
+
+              <div class="confidence-score">
+                <div class="score-label">Confidence</div>
+                <div class="score-bar">
+                  <div
+                    id="scoreFill"
+                    class="score-fill"
+                    style="width: 0%"
+                  ></div>
+                </div>
+                <div id="scoreValue" class="score-value">0%</div>
+              </div>
+
+              <div class="analysis-features">
+                <h4>Features</h4>
+                <div id="featuresList" class="features-list"></div>
+              </div>
+
+              <div class="recommendations">
+                <h4>Recommendations</h4>
+                <div
+                  id="recommendationsList"
+                  class="recommendations-list"
+                ></div>
+              </div>
+            </div>
+          </div>
+
+          <div id="loadingSection" class="loading-section hidden">
+            <div class="spinner"></div>
+            <p>Analyzing URL with AI...</p>
+          </div>
+        </div>
+
+        <div class="info-cards">
+          <div class="info-card">
+            <i class="fas fa-brain"></i>
+            <h3>AI-Powered</h3>
+            <p>Machine learning driven detection.</p>
+          </div>
+          <div class="info-card">
+            <i class="fas fa-clock"></i>
+            <h3>Real-time</h3>
+            <p>Fast analysis in seconds.</p>
+          </div>
+          <div class="info-card">
+            <i class="fas fa-shield-virus"></i>
+            <h3>Secure</h3>
+            <p>Privacy-first design.</p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <p>
+          &copy; 2025 PhishGuard AI. Protecting users from phishing attacks.
+        </p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
