@@ -38,7 +38,6 @@ Future Scope is Broser Extension web,app for Android and Ios
 
 FUTURE SCOPE IS BASED ON THIS PROJECT IS AI LIMITATION PERMISSION IN Os(operating system)
 
-USE ai_limitation_permission_is more_Secured_any os like android,windows,linux,ios 
 
 
 
