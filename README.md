@@ -36,7 +36,7 @@ This is Urls Detection Using AI_ML_deep_learning
 
 Future Scope is Broser Extension web,app for Android and Ios
 
-FUTURE SCOPE IS BASED ON THIS PROJECT IS AI LIMITATION PERMISSION IN Os(operating system)
+
 
 
 
